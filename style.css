@@ -232,8 +232,8 @@ nav {
 
 @media (max-width:1024px){
   .hero-content .hero-image img{
-    width: 22vh;
-    height: 18vh;
+    width: 30vh;
+    height: 29vh;
   }
 }
 
@@ -364,6 +364,12 @@ hr {
   height: 18px;
   vertical-align: middle;
   margin-right: 6px;
+}
+
+@media (max-width:1024px){
+  #skills .percentage{
+    color: white;
+  }
 }
 
 .projects-grid {
