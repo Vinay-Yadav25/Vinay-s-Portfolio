@@ -335,11 +335,7 @@
                   <text x="18" y="20.5" class="percentage">80%</text>
                 </svg>
                 <p>
-                  <img
-                    src="assets/PPT.png"
-                    alt="Java"
-                    class="skill-icon"
-                  />PPT
+                  <img src="assets/PPT.png" alt="Java" class="skill-icon" />PPT
                 </p>
               </div>
               <div class="circle-skill">
@@ -460,44 +456,17 @@
     <section id="contact" class="fly-in">
       <div class="container">
         <h2>Contact Me</h2>
-        <form
-          action="https://formsubmit.co/gvinayyadav25@gmail.com"
-          method="POST"
-        >
-          <input type="hidden" name="_captcha" value="false" />
-          <div style="margin-bottom: 15px">
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Name"
-              required
-              style="width: 100%; padding: 10px; border-radius: 5px"
-            />
-          </div>
-          <div style="margin-bottom: 15px">
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Gmail"
-              required
-              style="width: 100%; padding: 10px; border-radius: 5px"
-            />
-          </div>
+        <form action="https://formsubmit.co/gvinayyadav25@gmail.com" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="http://localhost/thankyou.html">
+  
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Gmail" required>
+  <textarea name="comment" placeholder="Description..." required></textarea>
 
-          <div style="margin-bottom: 15px">
-            <textarea
-              name="comment"
-              id=""
-              cols="100"
-              rows="8"
-              placeholder="Description..."
-              required
-              style="width: 100%; padding: 10px; border-radius: 5px"
-            ></textarea>
-          </div>
+  <button type="submit" class="btn">Send</button>
+</form>
 
-          <button type="submit" class="btn">Send</button>
-        </form>
       </div>
     </section>
 
@@ -518,13 +487,12 @@
     </script>
 
     <script>
-  document.querySelectorAll('.nav-links a').forEach(link => {
-    link.addEventListener('click', () => {
-      navLinks.classList.remove('active');
-    });
-  });
-</script>
-
+      document.querySelectorAll(".nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("active");
+        });
+      });
+    </script>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
