@@ -409,6 +409,7 @@ hr {
 input[type="text"],
 input[type="email"],
 textarea {
+  font-family: "Poppins";
   background: #222;
   color: #fff;
   border: 1px solid #00b527;
@@ -420,6 +421,10 @@ textarea {
 
 input::placeholder {
   color: rgba(255, 255, 255, 0.5);
+}
+
+#contact .container form button{
+  cursor: pointer;
 }
 
 footer {
@@ -441,6 +446,12 @@ footer {
 .fly-in.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+@media (max-width:768){
+  footer .container p{
+    font-size: 25px;
+  }
 }
 
 html {
