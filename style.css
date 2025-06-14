@@ -351,8 +351,8 @@ hr {
 }
 
 .percentage {
-  fill: #f6f0f0;
-  font-size: 0.35em;
+  fill: white;
+  font-size: 0.45em;
   text-anchor: middle;
   dominant-baseline: middle;
   transform: rotate(90deg);
