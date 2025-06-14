@@ -47,6 +47,39 @@ header {
   z-index: 1000;
 }
 
+@media (max-width: 768px) {
+  header {
+    padding: 4px 0; /* Reduce vertical padding */
+  }
+
+  .logo {
+    bottom: 5px; /* Lift the logo closer */
+    font-size: 1.5rem; /* Slightly reduce size if needed */
+  }
+
+  .menu-toggle {
+    top: 15px; /* Move toggle up to align better */
+  }
+
+  .nav-links {
+    top: 50px; /* Adjust dropdown menu accordingly */
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    bottom: 0;         /* Reset previous upward offset */
+    margin-top: 20px;  /* Add top space */
+  }
+}
+
+
 .logo {
   float: left;
   font-size: 1.8rem;
