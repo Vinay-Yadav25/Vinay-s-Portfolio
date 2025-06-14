@@ -366,7 +366,7 @@ hr {
   margin-right: 6px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 2725px) {
   .percentage {
     font-size: 0.5rem; /* increase visibility */
     fill: white;       /* make it pop */
