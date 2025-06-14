@@ -366,11 +366,15 @@ hr {
   margin-right: 6px;
 }
 
-@media (max-width:1024px){
-  #skills .percentage{
-    color: white;
+@media (max-width: 1024px) {
+  .percentage {
+    font-size: 0.45em; /* increase visibility */
+    fill: white;       /* make it pop */
+    dominant-baseline: middle;
+    text-anchor: middle;
   }
 }
+
 
 .projects-grid {
   display: grid;
