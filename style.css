@@ -368,7 +368,7 @@ hr {
 
 @media (max-width: 1024px) {
   .percentage {
-    font-size: 0.45em; /* increase visibility */
+    font-size: 0.5rem; /* increase visibility */
     fill: white;       /* make it pop */
     dominant-baseline: middle;
     text-anchor: middle;
